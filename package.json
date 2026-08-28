@@ -1,0 +1,19 @@
+{
+  "name": "nath-dc-scheduler",
+  "version": "1.0.0",
+  "description": "Discord message scheduler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check src/config.js && node --check src/delays.js && node --check src/logger.js && node --check src/message-scheduler.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "dependencies": {
+    "discord.js-selfbot-youtsuho-v13": "^3.7.7"
+  }
+}
